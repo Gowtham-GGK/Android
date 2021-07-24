@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="270dp"
+    android:background="@drawable/gradient_color"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/gradient_color"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="197dp"
+            android:layout_height="268dp"
+            android:layout_margin="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/gradient_color"
+            android:scaleType="fitXY"
+            tools:srcCompat="@drawable/gradient_color" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
